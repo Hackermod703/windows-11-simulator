@@ -11,9 +11,9 @@
     <div class="taskbar">
         <div class="start-button">⊞</div>
         <div class="taskbar-icons">
-            <img src="assets/icons/explorer.png" alt="Explorer" />
-            <img src="assets/icons/edge.png" alt="Edge" />
-            <img src="assets/icons/store.png" alt="Store" />
+            <img src="assets/icons/explorer.png" alt="Explorer" class="menu-icon" data-menu="file-navigator" />
+            <img src="assets/icons/browser.png" alt="Edge X" class="menu-icon" data-menu="web-voyager" />
+            <img src="assets/icons/settings.png" alt="Settings Hub" class="menu-icon" data-menu="settings-hub" />
         </div>
         <div class="time">12:00 PM</div>
     </div>
@@ -22,8 +22,22 @@
     <div class="desktop">
         <div class="desktop-icons">
             <img src="assets/icons/recycle-bin.png" alt="Recycle Bin">
-            <img src="assets/icons/this-pc.png" alt="This PC">
+            <img src="assets/icons/my-space.png" alt="This PC">
         </div>
+    </div>
+
+    <!-- Menus -->
+    <div class="menu file-navigator" id="file-navigator">
+        <h2>File Navigator</h2>
+        <p>Explore your files effortlessly.</p>
+    </div>
+    <div class="menu web-voyager" id="web-voyager">
+        <h2>Web Voyager</h2>
+        <p>Surf the internet with speed and style.</p>
+    </div>
+    <div class="menu settings-hub" id="settings-hub">
+        <h2>Settings Hub</h2>
+        <p>Customize your system preferences.</p>
     </div>
 
     <script src="script.js"></script>
